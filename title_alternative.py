@@ -17,7 +17,8 @@ def title_replicate(text):
             else:
                 first = True
                 output += i
-    print(output)
+    return output
 #Utilize the created function
 name = "MaRxIuS Ivan Adolf Denniel"
-title_replicate(name)
+call = title_replicate(name)
+print(call)

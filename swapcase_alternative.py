@@ -13,7 +13,8 @@ def swapcase_replicate(text):
             output += i.translate(lower_to_upper)
         else:
             output += i
-    print(output)
+    return output
 #Utilize the created function
 name = "MaRxIuS"
-swapcase_replicate(name)
+call = swapcase_replicate(name)
+print(call)

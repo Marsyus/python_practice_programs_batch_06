@@ -5,7 +5,8 @@ def removeprefix_replicate(text, remove):
         output = text.replace(remove, "")
     else:
         output = text
-    print(output)
+    return output
 #Utilize the created function
 name = "MarxiusIvan"
-removeprefix_replicate(name, "Marxius")
+call = removeprefix_replicate(name, "Marxius")
+print(call)

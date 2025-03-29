@@ -3,9 +3,10 @@
 def endswith_replicate(text, ending):
     text += "x"
     if ending + "x" in text:
-        print("True")
+        return True
     else:
-        print("False")
+        return False
 #Utilize the created function
 name = "Marxius Ivan"
-endswith_replicate(name, "Ivan")
+call = endswith_replicate(name, "Ivan")
+print(call)

@@ -3,7 +3,8 @@
 def lower_replicate(text):
     table = str.maketrans("ABCDEFGHIJKLMNOPQRSTUVWXYZ", "abcdefghijklmnopqrstuvwxyz")
     output = text.translate(table)
-    print(output)
+    return output
 #Utilize the created function
 name = "MArxIuS"
-lower_replicate(name)
+call = lower_replicate(name)
+print(call)

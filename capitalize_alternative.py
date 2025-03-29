@@ -13,7 +13,8 @@ def capitalize_replicate(text):
             first = False
         else:
             output += i.translate(upper_to_lower)
-    print(output)
+    return output
 #Utilize the created function
 name = "MaRxIuS Ivan Adolf Denniel"
-capitalize_replicate(name)
+call = capitalize_replicate(name)
+print(call)

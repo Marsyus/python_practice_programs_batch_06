@@ -9,7 +9,8 @@ def lstrip_replicate(text):
 	else:
 	    strip = False
             output += i
-    print(output)
+    return output
 #Utilize the created function
 name = "    Marxi   us"
-lstrip_replicate(name)
+call = lstrip_replicate(name)
+print(call)

@@ -12,7 +12,8 @@ def center_replicate(text, width, char):
         left = right + 1
     ljust = char * right
     rjust = char * left
-    print(rjust + text + ljust)
+    return rjust + text + ljust
 #Utilize the created function
 name = "Marxius"
-center_replicate(name, 27, "-")
+call = center_replicate(name, 27, "-")
+print(call)

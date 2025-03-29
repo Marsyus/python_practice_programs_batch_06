@@ -2,7 +2,8 @@
 #Create a function to replicate ljust()
 def ljust_replicate(text, width, char):
     text += char * width
-    print(text)
+    return text
 #Utilize the created function
 name = "Marxius"
-ljust_replicate(name, 10, "-")
+call = ljust_replicate(name, 10, "-")
+print(call)

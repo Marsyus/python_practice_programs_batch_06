@@ -7,9 +7,10 @@ def isupper_replicate(text):
         if i in uppercase:
             upper_count += 1
     if upper_count == len(text):
-        print("True")
+        return True
     else:
-        print("False")
+        return False
 #Utilize the created function
 name = "MARXIUS IVAN"
-isupper_replicate(name)
+call = isupper_replicate(name)
+print(call)
