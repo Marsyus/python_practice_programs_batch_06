@@ -7,4 +7,10 @@ def capitalize_replicate(prefix):
     upper_to_lower = str.maketrans("ABCDEFGHIJKLMNOPQRSTUVWXYZ", "abcdefghijklmnopqrstuvwxyz")
     lower_to_upper = str.maketrans("abcdefghijklmnopqrstuvwxyz", "ABCDEFGHIJKLMNOPQRSTUVWXYZ")
     first = True
+    for i in prefix:
+        if first:
+            output += i.translate(lower_to_upper)
+            first = False
+        else:
+            output += i.translate(upper_to_lower)
 #Utilize the created function
