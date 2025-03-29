@@ -1,3 +1,3 @@
-#Prog09. swapcase() reverse the casing of each of the character of the string. Create a program that do the same functionality without using swapcase() function.
+#Prog09. capitalize() makes the first letter of the string, capital letter. And all other letter in small case. Create a program that do the same functionality without using capitalize() function.
 #Create a function to replicate swapcase()
 #Utilize the created function
