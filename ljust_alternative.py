@@ -4,3 +4,5 @@ def ljust_replicate(prefix, width, char):
     prefix += char * width
     print(prefix)
 #Utilize the created function
+name = "Marxius"
+ljust_replicate(name, 10, "-")
