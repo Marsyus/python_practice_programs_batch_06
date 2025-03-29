@@ -7,3 +7,5 @@ def endswith_replicate(prefix, ending):
     else:
         print("False")
 #Utilize the created function
+name = "Marxius Ivan"
+endswith_replicate(name, "Ivan")
