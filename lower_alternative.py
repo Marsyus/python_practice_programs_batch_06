@@ -5,3 +5,5 @@ def lower_replicate(prefix):
     output = prefix.translate(table)
     print(output)
 #Utilize the created function
+name = "MArxIuS"
+lower_replicate(name)
