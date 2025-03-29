@@ -14,3 +14,5 @@ def center_replicate(prefix, width, char):
     rjust = char * left
     print(rjust + prefix + ljust)
 #Utilize the created function
+name = "Marxius"
+center_replicate(name, 27, "-")
