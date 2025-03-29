@@ -15,3 +15,5 @@ def swapcase_replicate(prefix):
             output += i
     print(output)
 #Utilize the created function
+name = "MaRxIuS"
+swapcase_replicate(name)
