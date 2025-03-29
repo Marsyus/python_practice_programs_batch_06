@@ -2,7 +2,7 @@
 #Create a function to replicate isupper()
 def isupper_replicate(prefix):
     upper_count = 0
-    uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+    uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ "
     for i in prefix:
         if i in uppercase:
             upper_count += 1
