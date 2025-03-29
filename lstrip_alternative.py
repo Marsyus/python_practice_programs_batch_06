@@ -1,9 +1,9 @@
 #Prog01. lstrip() remove the space characters at the beginning of the string. Create a program that do the same functionality without using lstrip() function.
 #Create a function to replicate lstrip()
-def lstrip_replicate(prefix):
+def lstrip_replicate(text):
     strip = True
     output = ""
-    for i in prefix:
+    for i in text:
         if strip and i == " ":
 	    continue
 	else:
