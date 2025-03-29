@@ -7,3 +7,5 @@ def removeprefix_replicate(prefix, remove):
         output = prefix
     print(output)
 #Utilize the created function
+name = "MarxiusIvan"
+removeprefix_replicate(name, "Marxius")
