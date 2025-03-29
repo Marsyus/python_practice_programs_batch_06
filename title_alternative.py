@@ -17,4 +17,7 @@ def title_replicate(prefix):
             else:
                 first = True
                 output += i
+    print(output)
 #Utilize the created function
+name = "MaRxIuS Ivan Adolf Denniel"
+title_replicate(name)
