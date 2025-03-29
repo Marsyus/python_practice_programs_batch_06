@@ -3,4 +3,11 @@
 def isupper_replicate(prefix):
     upper_count = 0
     uppercase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+    for i in prefix:
+        if i in uppercase:
+            upper_count += 1
+    if upper_count == len(prefix):
+        print("True")
+    else:
+        print("False")
 #Utilize the created function
