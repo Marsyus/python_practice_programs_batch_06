@@ -6,3 +6,5 @@ def lstrip_replicate(prefix):
             output = prefix.replace(i, "")
     print(output)
 #Utilize the created function
+name = "    Marxi   us"
+lstrip_replicate(name)
