@@ -10,4 +10,7 @@ def center_replicate(prefix, width, char):
     else:
         right = need // 2
         left = right + 1
+    ljust = char * right
+    rjust = char * left
+    print(rjust + prefix + ljust)
 #Utilize the created function
