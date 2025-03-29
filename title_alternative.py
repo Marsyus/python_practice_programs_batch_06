@@ -7,4 +7,14 @@ def title_replicate(prefix):
     upper_to_lower = str.maketrans("ABCDEFGHIJKLMNOPQRSTUVWXYZ", "abcdefghijklmnopqrstuvwxyz")
     lower_to_upper = str.maketrans("abcdefghijklmnopqrstuvwxyz", "ABCDEFGHIJKLMNOPQRSTUVWXYZ")
     first = True
+    for i in prefix:
+        if first:
+            output += i.translate(lower_to_upper)
+            first = False
+        else:
+            if i in uppercase or i in lowercase:
+                output += i.translate(upper_to_lower)
+            else:
+                first = True
+                output += i
 #Utilize the created function
