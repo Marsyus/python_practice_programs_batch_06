@@ -11,3 +11,5 @@ def isupper_replicate(prefix):
     else:
         print("False")
 #Utilize the created function
+name = "MARXIUS IVAN"
+isupper_replicate(name)
