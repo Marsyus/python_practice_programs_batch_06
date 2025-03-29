@@ -6,4 +6,12 @@ def swapcase_replicate(prefix):
     lowercase = "abcdefghijklmnopqrstuvwxyz"
     upper_to_lower = str.maketrans("ABCDEFGHIJKLMNOPQRSTUVWXYZ", "abcdefghijklmnopqrstuvwxyz")
     lower_to_upper = str.maketrans("abcdefghijklmnopqrstuvwxyz", "ABCDEFGHIJKLMNOPQRSTUVWXYZ")
+    for i in prefix:
+        if i in uppercase:
+            output += i.translate(upper_to_lower)
+        elif i in lowercase:
+            output += i.translate(lower_to_upper)
+        else:
+            output += i
+    print(output)
 #Utilize the created function
